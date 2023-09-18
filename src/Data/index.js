@@ -1,3 +1,4 @@
+import { lorry, quality, service } from "../assets/icon";
 import { clock1,clock2, clock3, miniatureClock1, miniatureClock2, miniatureClock3, miniatureReloj2, product1, product2, product3, product4, reloj } from "../assets/image";
 export const navLinks =[
     {href: '#home', name:'Home'},
@@ -58,4 +59,22 @@ export const products = [
         price:180.00,
         calification:8.5      
     }
+]
+
+export const services =[
+    {
+        imgUrl:lorry,
+        name:'Fast and Secure Shipping',
+        description:'Quick and secure delivery of your watches right to your doorstep.',
+    },
+    {
+        imgUrl:quality,
+        name:'Quality Guarantee',
+        description:'We provide a quality guarantee on all our watches for your peace of mind.',
+    },
+    {
+        imgUrl:service,
+        name:'Repair Services',
+        description:'Professional and careful repair of your watches in case of malfunctions.',
+    },
 ]

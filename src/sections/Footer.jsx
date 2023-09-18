@@ -2,7 +2,12 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+   <section> 
+     <h3>
+     Subscribe for Updates 
+     <span>News</span>
+     </h3>
+   </section>
   )
 }
 
