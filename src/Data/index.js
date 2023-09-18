@@ -1,4 +1,4 @@
-import { lorry, quality, service } from "../assets/icon";
+import { facebook, instagram, lorry, quality, service, twitter } from "../assets/icon";
 import { clock1,clock2, clock3, miniatureClock1, miniatureClock2, miniatureClock3, miniatureReloj2, product1, product2, product3, product4, reloj } from "../assets/image";
 export const navLinks =[
     {href: '#home', name:'Home'},
@@ -77,4 +77,43 @@ export const services =[
         name:'Repair Services',
         description:'Professional and careful repair of your watches in case of malfunctions.',
     },
+]
+
+export const footerLinks = [
+    {
+        title:'Products',
+        links:[
+            {name:'Classic Silver Chronograph Watch', link:'/'},
+            {name:'Elegant Rose Gold Mesh Watch', link:'/'},
+            {name:'Sporty Black Silicone Band Watch', link:'/'},
+            {name:'Minimalist White Leather Watch', link:'/'},
+        ]
+    },
+    {
+        title:'Help',
+        links:[
+            {name:'About us', link:'/'},
+            {name:'How it works', link:'/'},
+            {name:'Privacy policy', link:'/'}
+        ]
+    },
+    {
+        title:'Stay Connected',
+        links: [
+            { name: "customer@timelux.com", link: "mailto:customer@timelux.com" },
+            { name: "+123456987", link: "tel:+123456987" },
+        ],
+    }
+]
+
+export const social =[
+    {
+        src:facebook, atl:'Facebook logo'
+    },
+    {
+        src:twitter, alt:'Twitter logo'
+    },
+    {
+        src:instagram, alt:'Instagram logo'
+    }
 ]

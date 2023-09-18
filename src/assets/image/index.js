@@ -15,6 +15,8 @@ import product4 from './product4.png'
 
 import clock9 from './clock9.jpg'
 
+import logo from './logo.svg'
+
 export{
     clock1,
     clock2,
@@ -31,5 +33,7 @@ export{
     product3,
     product4,
 
-    clock9
+    clock9,
+
+    logo
 }
