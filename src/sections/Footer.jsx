@@ -1,6 +1,6 @@
 import React from 'react'
 import { copy } from '../assets/icon'
-import { logo } from '../assets/image'
+import { logo1 } from '../assets/image'
 import { footerLinks, social } from '../Data'
 
 const Footer = () => {
@@ -10,7 +10,7 @@ const Footer = () => {
       <div className='flex flex-col items-start'>
         <a>
           <img 
-          src={logo}
+          src={logo1}
           alt='logo'
           width={150}
           height={50}

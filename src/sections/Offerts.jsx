@@ -10,8 +10,8 @@ const Offerts = () => {
         <img 
         src={offerts}
         alt='Promotion'
-        width={773}
-        height={687}
+        width={573}
+        height={487}
         className='object-contain w-full'
         />
       </div>

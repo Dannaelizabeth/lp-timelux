@@ -20,7 +20,7 @@ const App = () => {
     <section className="padding">
       <Sections.Offerts/>
     </section>
-    <section className='padding-x sm:py-32 py-16 w-full'>
+    <section className='bg-pale-blue padding-x sm:py-32 py-16 w-full'>
       <Sections.Suscription/>
     </section>
     <section className= ' bg-black padding-x padding-t pb-8' >

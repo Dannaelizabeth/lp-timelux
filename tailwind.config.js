@@ -25,7 +25,7 @@ export default {
         'primary': "#001845",
         "blue-oscu": "#0466c8",
         "slate-gray": "#6D6D6D",
-        "pale-blue": "#F5F6FF",
+        "pale-blue": "#e3f2fd",
         "white-400": "rgba(255, 255, 255, 0.80)"
       },
       boxShadow: {

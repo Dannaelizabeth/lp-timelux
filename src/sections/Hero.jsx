@@ -1,16 +1,16 @@
 import React from 'react'
 import { clocks, stadistics } from '../Data'
 import Arrow from '../assets/icon/arrow.svg'
-import Reloj1 from '../assets/image/clock1.png'
+import clock5 from '../assets/image/clock5.png'
 import Button from '../components/Button'
 import RelojCard from '../components/RelojCard'
 import { useState } from 'react'
 
 const Hero = () => {
-  const [bigRelojImg, setBigRelojImg] = useState(Reloj1)
+  const [bigRelojImg, setBigRelojImg] = useState(clock5)
   return (
     <section id='home' 
-    className='w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container border-2 border-blue-500 '>
+    className='w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container '>
       <div className='relative xl:w-1/2 flex flex-col justify-center items-start w-full  max-xl:padding-x pt-28'>
         <p className='text-xl font-montserrat text-blue-oscu'>
           Discover Our Universe of Style
@@ -51,7 +51,7 @@ const Hero = () => {
         className='object-contain relative z-5 ml-12'
         />
 
-        <div className='flex sm:gap-6 gap-4 absolute -bottom-[0.5%] xl:left-0 sm:left-[18%] max-sm:px-2'>
+        <div className='flex sm:gap-6 gap-4 absolute -bottom-[0.6%] xl:left-0 sm:left-[18%] max-sm:px-2'>
           {
             clocks.map((image, index)=>(
               <div key={index}>
